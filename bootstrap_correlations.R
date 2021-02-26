@@ -31,9 +31,9 @@ rownames<-ALL[,1]
 ALL<-ALL[,c(2:151)]
 names(ALL)
 
-###convert to BAI
-#ALL.bai<-bai.in(ALL)
-#head(ALL.bai)
+convert to BAI
+ALL.bai<-bai.in(ALL)
+head(ALL.bai)
 
 
 ########################## now to the same with the spline (ie the detrended data)
